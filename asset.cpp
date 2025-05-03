@@ -4,8 +4,7 @@
 #include <SDL_image.h>
 
 bool initSDL() {
-    if (SDL_Init(SDL_INIT_VIDEO) < 0) {
-        cerr << "SDL initialization failed: " << SDL_GetError() << endl;
+    if (SDL_Init(SDL_INIT_EVERYTHING) < 0) {
         return false;
     }
 

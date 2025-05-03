@@ -73,7 +73,13 @@ int main(int argc, char* argv[]) {
                     default: break;
                 }
             } else if (e.type == SDL_KEYDOWN && e.key.keysym.sym == SDLK_ESCAPE) {
-                if (currentState == GameState::INFO || currentState == GameState::PAUSED) {
+                if (currentState == GameState::PLAYING) {
+                    currentState = GameState::PAUSED;
+                    pauseStartTime = SDL_GetTicks();
+                } else if (currentState == GameState::PAUSED) {
+                    currentState = GameState::PLAYING;
+                    levelStartTime += SDL_GetTicks() - pauseStartTime;
+                } else if (currentState == GameState::INFO) {
                     currentState = GameState::MENU;
                 }
             }
