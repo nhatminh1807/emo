@@ -105,6 +105,7 @@ void handlePauseClick(int mouseX, int mouseY) {
         playClickSound();
         currentLevelScore = 0;
         score = previousScore;
+        initLevel();
         currentState = GameState::PLAYING;
         levelStartTime = SDL_GetTicks();
     }
