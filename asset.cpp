@@ -40,8 +40,8 @@ SDL_Texture* loadTexture(const string& path) {
 
 bool loadMedia() {
     const vector<string> emojiFiles = {
-        "emojis/smile.png", "emojis/heart.png", "emojis/bomb.png", "emojis/x2.png", "emojis/cat.png",
-        "emojis/dog.png", "emojis/sun.png", "emojis/moon.png", "emojis/star.png", "emojis/tree.png"
+        "emojis/smile.png", "emojis/heart.png", "emojis/bomb.png", "emojis/x2.png", "emojis/cat.png", "emojis/cry.png", "emojis/alien.png", "emojis/angry.png", "emojis/fox.png",
+        "emojis/dog.png", "emojis/sun.png", "emojis/moon.png", "emojis/star.png", "emojis/tree.png", "emojis/wolf.png", "emojis/bell.png", "emojis/warning.png", "emojis/github.png"
     };
 
     for (const auto& file : emojiFiles) {

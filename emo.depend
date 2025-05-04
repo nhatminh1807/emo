@@ -1,0 +1,72 @@
+# depslib dependency file v1.0
+1746347917 source:d:\codeblocks\emo\asset.cpp
+	"asset.h"
+	"game_globals.h"
+	"audio.h"
+	<SDL_image.h>
+
+1746177701 d:\codeblocks\emo\asset.h
+	"game_globals.h"
+
+1746177701 d:\codeblocks\emo\game_globals.h
+	"game_types.h"
+	<SDL.h>
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+	<SDL_image.h>
+	<iostream>
+	<vector>
+	<algorithm>
+	<random>
+	<fstream>
+	<cstdlib>
+
+1746177701 d:\codeblocks\emo\game_types.h
+	"game_globals.h"
+	<SDL.h>
+
+1746177701 d:\codeblocks\emo\audio.h
+	"game_globals.h"
+
+1746177701 source:d:\codeblocks\emo\audio.cpp
+	"audio.h"
+	"game_globals.h"
+
+1746347369 source:d:\codeblocks\emo\game_globals.cpp
+	"game_globals.h"
+
+1746177701 source:d:\codeblocks\emo\game_logic.cpp
+	"game_logic.h"
+	"game_globals.h"
+	"game_types.h"
+
+1746177701 d:\codeblocks\emo\game_logic.h
+
+1746332429 source:d:\codeblocks\emo\input.cpp
+	"input.h"
+	"game_globals.h"
+	"audio.h"
+	"game_logic.h"
+	<SDL.h>
+
+1746177701 d:\codeblocks\emo\input.h
+	"game_globals.h"
+	"game_types.h"
+
+1746350353 source:d:\codeblocks\emo\main.cpp
+	"game_globals.h"
+	"game_types.h"
+	"game_logic.h"
+	"asset.h"
+	"audio.h"
+	"render.h"
+	"input.h"
+
+1746177701 d:\codeblocks\emo\render.h
+	"game_globals.h"
+
+1746349123 source:d:\codeblocks\emo\render.cpp
+	"render.h"
+	"game_globals.h"
+	"audio.h"
+

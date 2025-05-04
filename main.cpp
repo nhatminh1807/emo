@@ -11,6 +11,7 @@ int main(int argc, char* argv[]) {
     if (!initSDL() || !loadMedia()) return -1;
 
     highestScore = readHighestScore();
+    score = 0;
 
     const SDL_Color brown = {39, 32, 22, 255};
     bool quit = false;
@@ -58,11 +59,13 @@ int main(int argc, char* argv[]) {
                         SDL_Point mousePoint = {mouseX, mouseY};
                         if (SDL_PointInRect(&mousePoint, &homeButton.rect)) {
                             playClickSound();
+                            checkAndUpdateHighScore();
                             currentState = GameState::MENU;
                             level = 1;
                             score = 0;
                         } else if (SDL_PointInRect(&mousePoint, &replayButton.rect)) {
                             playClickSound();
+                            checkAndUpdateHighScore();
                             level = 1;
                             score = 0;
                             currentState = GameState::PLAYING;
@@ -85,7 +88,6 @@ int main(int argc, char* argv[]) {
             }
         }
 
-        // Render
         SDL_SetRenderDrawColor(renderer, 50, 50, 50, 255);
         SDL_RenderClear(renderer);
 

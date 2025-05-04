@@ -127,6 +127,7 @@ void renderGameOverScreen() {
         windowWidth,
         windowHeight
     };
+
     SDL_RenderCopy(renderer, gameOverWindowTexture, nullptr, &windowRect);
 
     homeButton.rect = {windowRect.x + 150, windowRect.y + windowRect.h - 180, 80, 80};

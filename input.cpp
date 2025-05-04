@@ -24,8 +24,7 @@ void handleMenuClick(int mouseX, int mouseY) {
         isSoundOn = !isSoundOn;
         if (isSoundOn) Mix_ResumeMusic();
         else Mix_PauseMusic();
-    }
-    else if (isMouseOverButton(mouseX, mouseY, exitButton)) {
+    } else if (isMouseOverButton(mouseX, mouseY, exitButton)) {
         playClickSound();
         SDL_Event quitEvent;
         quitEvent.type = SDL_QUIT;
@@ -50,6 +49,7 @@ void handleCardClick(int mouseX, int mouseY) {
                 if (v1 == v2) {
                     if (v1 == BOMB_CARD_VALUE) {
                     playSound(loseSound);
+                    checkAndUpdateHighScore();
                     isTimeUp = true;
                     currentState = GameState::GAME_OVER;
                     flippedCards.clear();
