@@ -6,43 +6,34 @@ Tên: Nguyễn Nhật Minh
 Mã số sinh viên: 24022818-CN15
 
 ## Giới thiệu game
-Emoji Matching Game là trò chơi lật thẻ tìm cặp hình giống nhau, với nhiều cấp độ khó tăng dần và các yếu tố hấp dẫn như thẻ đặc biệt (x2, bomb), giới hạn thời gian
-Demo:(https://drive.google.com/drive/folders/1xr7udg1lR0bfKEfxZ54W4GqyP-zm7msd)
+- Emoji Matching Game là trò chơi lật thẻ tìm cặp hình giống nhau, với nhiều cấp độ khó tăng dần và các yếu tố hấp dẫn như thẻ đặc biệt (x2, bomb), giới hạn thời gian
+- Demo:(https://drive.google.com/drive/folders/1xr7udg1lR0bfKEfxZ54W4GqyP-zm7msd)
 
 ## Mức điểm đề xuất: 8
 ## Lý do bảo vệ mức điểm:
 ### Phát triển từ code mẫu và có bổ sung đáng kể:
-Game được chia module rõ ràng (main menu, pause, game over, logic chơi, điểm số cao, cấp độ).
-
-Tổ chức code dễ mở rộng và bảo trì.
+- Game được chia module rõ ràng (main menu, pause, game over, logic chơi, điểm số cao, cấp độ).
+- Tổ chức code dễ mở rộng và bảo trì.
 
 ### Đồ họa:
-Sử dụng SDL2 để hiển thị ảnh emoji sinh động.
-
-Các màn hình menu/pause/game over được xây dựng đầy đủ, trực quan.
+- Sử dụng SDL2 để hiển thị ảnh emoji sinh động.
+- Các màn hình menu/pause/game over được xây dựng đầy đủ, trực quan.
 
 ### Âm thanh:
-Có hiệu ứng âm thanh khi click nút và lật thẻ, tăng tính tương tác người chơi.
+- Có hiệu ứng âm thanh khi click nút và lật thẻ, tăng tính tương tác người chơi.
 
-### Gameplay nâng cao:
-3 cấp độ khó: 2x2, 4x4, 6x6.
-
-Có thanh thời gian đếm ngược cho mỗi cấp độ.
-
-Thẻ đặc biệt: x2.png nhân đôi điểm, bomb.png thua ngay lập tức.
-
-Tính điểm và lưu điểm cao nhất (high score) giữa các lượt chơi.
-
-Có thể tạm dừng và tiếp tục game (phím ESC hoặc nút Pause).
+### Gameplay :
+- 3 cấp độ khó: 2x2, 4x4, 6x6.  
+- Có thanh thời gian đếm ngược cho mỗi cấp độ.
+- Thẻ đặc biệt: x2.png nhân đôi điểm, bomb.png thua ngay lập tức.
+- Tính điểm và lưu điểm cao nhất (high score) giữa các lượt chơi.
+- Có thể tạm dừng và tiếp tục game (phím ESC hoặc nút Pause).
 
 ### Các tính năng tự bổ sung:
-Quản lý trạng thái game (MENU, PLAYING, PAUSED, GAME_OVER) một cách chặt chẽ.
-
-Hiển thị thời gian còn lại bằng thanh hiệu ứng.
-
-Tự động khởi tạo màn chơi mới và reset các biến khi chơi lại.
-
-Lưu điểm cao giữa các lượt chơi và hiển thị rõ ràng trong lúc chơi.
+- Quản lý trạng thái game (MENU, PLAYING, PAUSED, GAME_OVER) một cách chặt chẽ.
+- Hiển thị thời gian còn lại bằng thanh hiệu ứng.
+- Tự động khởi tạo màn chơi mới và reset các biến khi chơi lại.
+- Lưu điểm cao giữa các lượt chơi và hiển thị rõ ràng trong lúc chơi.
 
 ### Các kỹ thuật lập trình đã sử dụng
 - Vòng lặp
