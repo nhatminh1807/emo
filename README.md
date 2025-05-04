@@ -61,4 +61,4 @@ Lưu điểm cao giữa các lượt chơi và hiển thị rõ ràng trong lúc
 - Hiểu cách thức hoạt động và tự viết một game.
 - Biết cách quản lý code cho những chương trình lớn, tìm và xử lý các lỗi ẩn.
 - Sử dụng tốt ngôn ngữ lập trình C++ và các thư viện SDL2 để làm nên một game.
-- Chia nhỏ một project lớn thành những file nhỏ, những file nhỏ thành những class nhỏ hơn để thuận tiện cho quá trình code, quản lý và debug.
+- Chia nhỏ một project lớn thành những file nhỏ để thuận tiện cho quá trình code, quản lý và debug.
