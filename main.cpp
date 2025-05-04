@@ -11,7 +11,6 @@ int main(int argc, char* argv[]) {
     if (!initSDL() || !loadMedia()) return -1;
 
     highestScore = readHighestScore();
-    score = 0;
 
     const SDL_Color brown = {39, 32, 22, 255};
     bool quit = false;
