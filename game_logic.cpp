@@ -72,18 +72,15 @@ int readHighestScore() {
     return hs;
 }
 
-void writeHighestScore(int score) {
-    ofstream file("highscore.txt");
-    if (file.is_open()) {
-        file << score;
-        file.close();
-    }
-}
-
 void checkAndUpdateHighScore() {
     if (score > highestScore) {
         highestScore = score;
-        writeHighestScore(highestScore);
+        ofstream file("highscore.txt");
+        if (file.is_open()) {
+            file << highestScore;
+            file.close();
+        }
     }
 }
+
 

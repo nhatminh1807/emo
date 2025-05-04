@@ -1,6 +1,7 @@
 #include "render.h"
 #include "game_globals.h"
 #include "audio.h"
+#include "game_logic.h"
 
 
 
@@ -53,6 +54,7 @@ void renderTimeBar() {
         isTimeUp = true;
         currentState = GameState::GAME_OVER;
         playSound(loseSound);
+        checkAndUpdateHighScore();
     }
 
     const int TIME_BAR_WIDTH = 470;
