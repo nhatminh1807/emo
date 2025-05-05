@@ -43,14 +43,12 @@ Mã số sinh viên: 24022818-CN15
 - Xuất/nhập file
 - SDL2 (SLD2_image, SDL2_mixer, SLD2_ttf)
 - Kỹ thuật Texture font, Mouse event, Key event
-- Kỹ thuật sử dụng hoạt ảnh (Sprites)
 - Sound Effects and Music
 
 
 ### Kết luận
 - Hình ảnh và âm thanh được tham khảo từ nhiều nguồn khác nhau và được chỉnh sửa để phù hợp với game, nhưng đa số được tham khảo từ: Openmoji.org, Freesound.org.
 - Một số ứng dụng, trang web hỗ trợ làm đồ họa: Microsoft Paint, Canva...
-- Hiểu cách thức hoạt động và tự viết một game.
 - Biết cách quản lý code cho những chương trình lớn, tìm và xử lý các lỗi ẩn.
 - Sử dụng tốt ngôn ngữ lập trình C++ và các thư viện SDL2 để làm nên một game.
 - Chia nhỏ một project lớn thành những file nhỏ để thuận tiện cho quá trình code, quản lý và debug.
