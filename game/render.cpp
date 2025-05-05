@@ -1,7 +1,7 @@
 #include "render.h"
-#include "game_globals.h"
+#include "global.h"
 #include "audio.h"
-#include "game_logic.h"
+#include "logic.h"
 
 
 

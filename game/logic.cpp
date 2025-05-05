@@ -1,6 +1,6 @@
-#include "game_logic.h"
-#include "game_globals.h"
-#include "game_types.h"
+#include "logic.h"
+#include "global.h"
+#include "types.h"
 
 bool initLevel() {
     cards.clear();

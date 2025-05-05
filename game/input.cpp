@@ -1,7 +1,7 @@
 #include "input.h"
-#include "game_globals.h"
+#include "global.h"
 #include "audio.h"
-#include "game_logic.h"
+#include "logic.h"
 #include <SDL.h>
 
 bool isMouseOverButton(int mouseX, int mouseY, const Button& button) {

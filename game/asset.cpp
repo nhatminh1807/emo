@@ -1,5 +1,5 @@
 #include "asset.h"
-#include "game_globals.h"
+#include "global.h"
 #include "audio.h"
 #include <SDL_image.h>
 

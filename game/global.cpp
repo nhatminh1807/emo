@@ -1,4 +1,4 @@
-#include "game_globals.h"
+#include "global.h"
 
 GameState currentState = GameState::MENU;
 

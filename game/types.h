@@ -1,7 +1,7 @@
-#ifndef GAME_TYPES_H
-#define GAME_TYPES_H
+#ifndef TYPES_H
+#define TYPES_H
 
-#include "game_globals.h"
+#include "global.h"
 #include <SDL.h>
 
 enum class GameState { MENU, PLAYING, PAUSED, GAME_OVER, INFO };
@@ -20,5 +20,5 @@ struct Button {
     Button(int x, int y, int w, int h) : rect{x, y, w, h} {}
 };
 
-#endif // GAME_TYPES_H
+#endif // TYPES_H
 

@@ -36,16 +36,16 @@
 		<Unit filename="asset.h" />
 		<Unit filename="audio.cpp" />
 		<Unit filename="audio.h" />
-		<Unit filename="game_globals.cpp" />
-		<Unit filename="game_globals.h" />
-		<Unit filename="game_logic.cpp" />
-		<Unit filename="game_logic.h" />
-		<Unit filename="game_types.h" />
+		<Unit filename="global.cpp" />
+		<Unit filename="global.h" />
 		<Unit filename="input.cpp" />
 		<Unit filename="input.h" />
+		<Unit filename="logic.cpp" />
+		<Unit filename="logic.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="render.cpp" />
 		<Unit filename="render.h" />
+		<Unit filename="types.h" />
 		<Extensions />
 	</Project>
 </CodeBlocks_project_file>

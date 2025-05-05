@@ -1,7 +1,7 @@
 #ifndef ASSET_H
 #define ASSET_H
 
-#include "game_globals.h"
+#include "global.h"
 
 bool initSDL();
 bool loadMedia();

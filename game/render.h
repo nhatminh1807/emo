@@ -1,7 +1,7 @@
 #ifndef RENDER_H
 #define RENDER_H
 
-#include "game_globals.h"
+#include "global.h"
 
 void renderText(const std::string& text, int x, int y, SDL_Color color);
 void renderMenu();

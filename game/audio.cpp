@@ -1,5 +1,5 @@
 #include "audio.h"
-#include "game_globals.h"
+#include "global.h"
 
 void playSound(Mix_Chunk* sound) {
     if (isSoundOn && sound) {

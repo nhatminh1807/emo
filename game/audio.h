@@ -1,7 +1,7 @@
 #ifndef AUDIO_H
 #define AUDIO_H
 
-#include "game_globals.h"
+#include "global.h"
 
 void playSound(Mix_Chunk* sound);
 void playClickSound();

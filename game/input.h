@@ -1,7 +1,7 @@
 #ifndef INPUT_H
 #define INPUT_H
-#include "game_globals.h"
-#include "game_types.h"
+#include "global.h"
+#include "types.h"
 
 void handleMenuClick(int mouseX, int mouseY);
 void handleCardClick(int mouseX, int mouseY);

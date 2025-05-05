@@ -71,14 +71,14 @@
 	"audio.h"
 	"game_logic.h"
 
-1746347917 source:d:\codeblocks\emo\game\asset.cpp
+1746426643 source:d:\codeblocks\emo\game\asset.cpp
 	"asset.h"
-	"game_globals.h"
+	"global.h"
 	"audio.h"
 	<SDL_image.h>
 
-1746177701 d:\codeblocks\emo\game\asset.h
-	"game_globals.h"
+1746426643 d:\codeblocks\emo\game\asset.h
+	"global.h"
 
 1746177701 d:\codeblocks\emo\game\game_globals.h
 	"game_types.h"
@@ -97,12 +97,12 @@
 	"game_globals.h"
 	<SDL.h>
 
-1746177701 d:\codeblocks\emo\game\audio.h
-	"game_globals.h"
+1746426643 d:\codeblocks\emo\game\audio.h
+	"global.h"
 
-1746177701 source:d:\codeblocks\emo\game\audio.cpp
+1746426643 source:d:\codeblocks\emo\game\audio.cpp
 	"audio.h"
-	"game_globals.h"
+	"global.h"
 
 1746347369 source:d:\codeblocks\emo\game\game_globals.cpp
 	"game_globals.h"
@@ -114,32 +114,59 @@
 
 1746177701 d:\codeblocks\emo\game\game_logic.h
 
-1746351041 source:d:\codeblocks\emo\game\input.cpp
+1746426643 source:d:\codeblocks\emo\game\input.cpp
 	"input.h"
-	"game_globals.h"
+	"global.h"
 	"audio.h"
-	"game_logic.h"
+	"logic.h"
 	<SDL.h>
 
-1746177701 d:\codeblocks\emo\game\input.h
-	"game_globals.h"
-	"game_types.h"
+1746427020 d:\codeblocks\emo\game\input.h
+	"global.h"
+	"types.h"
 
-1746352211 source:d:\codeblocks\emo\game\main.cpp
-	"game_globals.h"
-	"game_types.h"
-	"game_logic.h"
+1746426960 source:d:\codeblocks\emo\game\main.cpp
+	"global.h"
+	"types.h"
+	"logic.h"
 	"asset.h"
 	"audio.h"
 	"render.h"
 	"input.h"
 
-1746177701 d:\codeblocks\emo\game\render.h
-	"game_globals.h"
+1746426552 d:\codeblocks\emo\game\render.h
+	"global.h"
 
-1746362707 source:d:\codeblocks\emo\game\render.cpp
+1746426633 source:d:\codeblocks\emo\game\render.cpp
 	"render.h"
-	"game_globals.h"
+	"global.h"
 	"audio.h"
-	"game_logic.h"
+	"logic.h"
+
+1746426960 d:\codeblocks\emo\game\global.h
+	"types.h"
+	<SDL.h>
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+	<SDL_image.h>
+	<iostream>
+	<vector>
+	<algorithm>
+	<random>
+	<fstream>
+	<cstdlib>
+
+1746426960 d:\codeblocks\emo\game\types.h
+	"global.h"
+	<SDL.h>
+
+1746426643 source:d:\codeblocks\emo\game\global.cpp
+	"global.h"
+
+1746426477 d:\codeblocks\emo\game\logic.h
+
+1746426960 source:d:\codeblocks\emo\game\logic.cpp
+	"logic.h"
+	"global.h"
+	"types.h"
 

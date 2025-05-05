@@ -1,7 +1,7 @@
-#ifndef GAME_GLOBALS_H
-#define GAME_GLOBALS_H
+#ifndef GLOBAL_H
+#define GLOBAL_H
 
-#include "game_types.h"
+#include "types.h"
 #include <SDL.h>
 #include <SDL_ttf.h>
 #include <SDL_mixer.h>
@@ -25,12 +25,10 @@ const Uint32 LAST_PAIR_DELAY_MS = 1000;
 
 extern GameState currentState;
 
-// Cards
 extern vector<Card> cards;
 extern vector<Card*> flippedCards;
 extern vector<SDL_Texture*> emojiTextures;
 
-// Textures
 extern SDL_Texture* backTexture;
 extern SDL_Texture* matchedTexture;
 extern SDL_Texture* backgroundTexture;
@@ -40,7 +38,6 @@ extern SDL_Texture* soundOffTexture;
 extern SDL_Texture* pauseWindowTexture;
 extern SDL_Texture* gameOverWindowTexture;
 
-// Buttons
 extern Button startButton;
 extern Button infoButton;
 extern Button soundButton;
@@ -50,7 +47,6 @@ extern Button continueButton;
 extern Button homeButton;
 extern Button replayButton;
 
-// Sounds
 extern Mix_Chunk* flipSound;
 extern Mix_Chunk* matchedSound;
 extern Mix_Chunk* wrongSound;
@@ -59,12 +55,10 @@ extern Mix_Chunk* clickSound;
 extern Mix_Chunk* loseSound;
 extern Mix_Chunk* x2Sound;
 
-// SDL Resources
 extern SDL_Window* window;
 extern SDL_Renderer* renderer;
 extern TTF_Font* font;
 
-// Game logic
 extern bool isSoundOn;
 extern int level;
 extern int pairsFound;
@@ -86,5 +80,5 @@ extern int BOMB_CARD_VALUE;
 extern int X2_CARD_VALUE;
 extern int normalPairs;
 
-#endif // GAME_GLOBALS_H
+#endif // GLOBAL_H
 
