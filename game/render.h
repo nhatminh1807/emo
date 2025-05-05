@@ -3,7 +3,7 @@
 
 #include "global.h"
 
-void renderText(const std::string& text, int x, int y, SDL_Color color);
+void renderText(const string& text, int x, int y, SDL_Color color);
 void renderMenu();
 void renderInfoScreen();
 void renderCards();
