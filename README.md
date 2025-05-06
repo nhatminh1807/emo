@@ -30,7 +30,7 @@ Mã số sinh viên: 24022818-CN15
 - Có thể tạm dừng và tiếp tục game (phím ESC hoặc nút Pause).
 
 ### Các tính năng tự bổ sung:
-- Quản lý trạng thái game (MENU, PLAYING, PAUSED, GAME_OVER) một cách chặt chẽ.
+- Quản lý trạng thái game (MENU, PLAYING, PAUSED, GAME_OVER).
 - Hiển thị thời gian còn lại bằng thanh hiệu ứng.
 - Tự động khởi tạo màn chơi mới và reset các biến khi chơi lại.
 - Lưu điểm cao giữa các lượt chơi và hiển thị rõ ràng trong lúc chơi.
