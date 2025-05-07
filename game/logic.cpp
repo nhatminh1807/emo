@@ -19,8 +19,8 @@ bool initLevel() {
 
     vector<int> values;
     for (int i = 0; i < totalPairs; ++i) {
-        values.push_back(i % emojiTextures.size());
-        values.push_back(i % emojiTextures.size());
+        values.push_back(i);
+        values.push_back(i);
     }
 
     shuffle(values.begin(), values.end(), mt19937{random_device{}()});
